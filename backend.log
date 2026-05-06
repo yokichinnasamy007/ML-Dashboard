@@ -1,0 +1,12 @@
+
+[app] Training supervised model (Indian Car Selling Price)...
+[preprocessing] Using cached Indian Car Selling Price (1017 KB) -> E:\AI-SURIYA\backend\utils\..\data\car_selling_price.csv
+[preprocessing] Car Prices cleaned: 7903 rows
+[Supervised] RandomForest trained — R2=0.9691  RMSE=Rs.156,609  rows=7903  trees=300  saved -> E:\AI-SURIYA\backend\model\..\saved_models\supervised_model.joblib
+
+[app] Training unsupervised model (Customer Spending Score)...
+[preprocessing] Using cached Customer Spending Score (4 KB) -> E:\AI-SURIYA\backend\utils\..\data\customer_spending_score.csv
+[preprocessing] Customer Spending cleaned: 200 rows
+[Unsupervised] trained — silhouette=0.5547  k=5  rows=200  saved -> E:\AI-SURIYA\backend\model\..\saved_models\unsupervised_model.joblib
+ * Serving Flask app 'app'
+ * Debug mode: off
